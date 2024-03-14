@@ -27,7 +27,7 @@ app.use((req,res) => {
 
 app.listen(process.env.SERVER_PORT, process.env.SERVER_HOTS, (err) => {
     if(err){
-        console.log('Error in server setup')
+        console.log('Error server setup')
     }
     else {
         console.log(`Server running at http://${process.env.SERVER_HOST}:${process.env.SERVER_PORT}`)
